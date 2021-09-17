@@ -7,7 +7,11 @@ eureka:
   instance:
     hostname: localhost
 
-spring.boot.admin.client.url: http://localhost:8080
+spring:
+  boot:
+    admin:
+      client:
+        url: [http://localhost:8080]
 
 management:
   endpoint:
